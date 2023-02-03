@@ -1,0 +1,43 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue",
+		"^w-(.*)": "@/uni_modules/wmf-code/components/w-$1/w-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/getUserPhone",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/verificationList",
+			"style": {
+				"navigationBarTitleText": "验真卡片",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/recordDeatil",
+			"style": {
+				"navigationBarTitleText": "治疗档案",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/dataDetail",
+			"style": {
+				"navigationBarTitleText": "治疗档案数据详情",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Paramier",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
